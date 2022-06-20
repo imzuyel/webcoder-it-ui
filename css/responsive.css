@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1194px) {
+  .header-wrapper .header ul li {
+    position: relative;
+    padding: 8px 5px;
+  }
+
+  .header-wrapper .header ul li a {
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+  .banner-wrapper .left-section .banner-title {
+    font-size: 35px;
+  }
+
+  .banner-wrapper .left-section .banner-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  /* Joing */
+  .joing-wrapper .left-section .joing-sub-title {
+    font-size: 18px;
+
+  }
+
+  .joing-wrapper .left-section .joing-title {
+    font-size: 21px;
+
+  }
+
+  .joing-wrapper .right-section::before {
+    display: none;
+  }
+
+  .joing-wrapper .right-btn .secondary-btn {
+    width: 140px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  /* How work */
+  .shap-4,
+  .shap-5 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  /* Teacher */
+  .teacher-wrapper .single-item {
+    margin-bottom: 10px;
+  }
+
+  /* Joing */
+  .joing-wrapper .right-section .right-btn {
+
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+
+  .how-wrapper .how-work .work-item {
+    max-width: 600px;
+  }
+
+  /* Shap */
+  .shap-9 {
+    top: -1px;
+    right: 66px;
+  }
+
+  /* Courses page */
+  .courses-page-wrapper .shap-10 {
+    bottom: -34px;
+  }
+
+  .courses-page-wrapper .shap-11 {
+    right: 135px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* Courses page */
+  .courses-page-wrapper .shap-10 {
+    bottom: -124px;
+  }
+
+  .courses-page-wrapper .shap-11 {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 15px;
+    z-index: 1;
+  }
+
+
+}
